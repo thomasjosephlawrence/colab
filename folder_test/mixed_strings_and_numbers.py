@@ -1,0 +1,1 @@
+print("The sum of %d and %d is: %d" % (7, 18, 7+18))

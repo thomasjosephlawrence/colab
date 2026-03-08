@@ -1,0 +1,13 @@
+pipeline: 
+  input_file: "seed_data.csv"
+  output_file: "synthetic_output.csv"
+  iterations: 5 # How many rows generate per seed row
+  model: "gpt-4o"
+
+prompt_settings
+  persona: "Expert Data Linguist"
+  style: "Professional but frustrated customer"
+  fields_to_generate: 
+    - customer_review
+    - emotional_sentiment
+    - support_ticket_priority
